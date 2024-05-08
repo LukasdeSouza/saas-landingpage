@@ -16,8 +16,10 @@ export default function Home() {
           Trilha Dev, evolua como um Programador 10x
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Tem tido dificuldade nos estudos ou tá meio perdido no meio de tanto conteúdo?
-          Não se preocupe! Isso é normal, e nós estamos aqui pra resolver este problema.
+          Tem tido dificuldade nos estudos ou tá meio
+          perdido no meio de tanto conteúdo? Não se
+          preocupe! Isso é normal, e nós estamos aqui pra
+          resolver este problema.
         </Typography>
         <Link
           href="https://pay.kiwify.com.br/5A84k2Z"
@@ -59,10 +61,14 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-            1-on-1 para corrigir os seus pontos fracos e dar ênfase ao ponto forte
+            1-on-1 para corrigir os seus pontos fracos e dar
+            ênfase ao ponto forte
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Fale direto com um especialista, corrija as suas falhas individuais, se aprimora com um acompanhamento individualizado que é feito com cada aluno.
+            Fale direto com um especialista, corrija as suas
+            falhas individuais, se aprimora com um
+            acompanhamento individualizado que é feito com
+            cada aluno.
           </Typography>
           <Image
             width={1024}
@@ -73,9 +79,12 @@ export default function Home() {
         </div>
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-              Quero participar!
+            Quero participar!
           </Typography>
-          <div>comece hoje, e evolua em 1 semana aquilo que não evoluiu em 1 mês</div>
+          <div>
+            comece hoje, e evolua em 1 semana aquilo que não
+            evoluiu em 1 mês
+          </div>
           <Link
             href="https://pay.kiwify.com.br/5A84k2Z"
             target="_blank"

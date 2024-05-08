@@ -9,8 +9,7 @@ import { Analytics } from '@vercel/analytics/react'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title:
-    'Trilha Dev - Evolua na Programação',
+  title: 'Trilha Dev - Evolua na Programação',
   description:
     'Evolução para programador, cresça e desenvolva suas habilidades importante para ser um programador 10x.',
   openGraph: {
@@ -18,8 +17,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title:
-      'Trilha Dev - Evolua na Programação',
+    title: 'Trilha Dev - Evolua na Programação',
     description:
       'Evolução para programador, cresça e desenvolva suas habilidades importante para ser um programador 10x.',
     images: ['https://i.imgur.com/MPMcyPP.png']
