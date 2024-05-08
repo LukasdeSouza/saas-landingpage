@@ -19,11 +19,11 @@ interface SidebarProps
 export function Header({ className }: SidebarProps) {
   const pathname = usePathname()
   const items = [
-    {
-      href: 'https://map.sistilli.dev/public/coding/SaaS+Boilerplate',
-      title: 'Book a demo',
-      openInNewTab: true
-    }
+    // {
+    //   href: 'https://map.sistilli.dev/public/coding/SaaS+Boilerplate',
+    //   title: 'Book a demo',
+    //   openInNewTab: true
+    // }
     // { href: '#pricing', title: 'Features' },
     // {
     //   href: 'mailto:myemail@.com',
@@ -32,10 +32,14 @@ export function Header({ className }: SidebarProps) {
   ]
 
   const getLogo = () => (
-    <Link href="/" className="pointer flex items-center">
-      <img src="/logo.svg" className="mr-3" />
+    <Link
+      href="https://www.tiktok.com/@deveprogramar"
+      target="_blank" 
+      className="pointer flex items-center"
+    >
+      {/* <img src="/logo.svg" className="mr-3" /> */}
       <Typography className="!text-white !text-base font-medium ">
-        Pandem
+        @deveprogramar
       </Typography>
     </Link>
   )
@@ -106,7 +110,7 @@ export function Header({ className }: SidebarProps) {
             <div className="flex items-center gap-x-8 flex-1">
               {getHeaderItems()}
             </div>
-            {getAuthButtons()}
+            {/* {getAuthButtons()} */}
           </div>
           {/* Mobile */}
           <div className="md:hidden flex gap-x-4 items-center">

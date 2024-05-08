@@ -8,16 +8,17 @@ export function Footer() {
       <div className="w-full max-w-[1280px] md:px-8 px-4 flex place-content-center">
         <div className="gap-x-11 md:flex flex-1 hidden">
           <Link
-            href="/"
+            href="https://www.tiktok.com/@deveprogramar"
+            target="_blank"
             className="pointer flex items-center"
           >
-            <img src="/logo.svg" className="mr-3" />
+            {/* <img src="/logo.svg" className="mr-3" /> */}
             <Typography className="!text-white !text-base font-medium ">
-              Pandem
+              @deveprogramar
             </Typography>
           </Link>
         </div>
-        <div className="flex max-w-fit items-center gap-x-4">
+        {/* <div className="flex max-w-fit items-center gap-x-4">
           <Link
             href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
             target="_blank"
@@ -43,7 +44,7 @@ export function Footer() {
               Privacy Policy
             </Typography>
           </Link>
-        </div>
+        </div> */}
       </div>
     </footer>
   )

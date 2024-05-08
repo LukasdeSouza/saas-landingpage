@@ -10,18 +10,18 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title:
-    'Pandem - Information you need during on-call emergencies',
+    'Trilha Dev - Evolua na Programação',
   description:
-    'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
+    'Evolução para programador, cresça e desenvolva suas habilidades importante para ser um programador 10x.',
   openGraph: {
     images: '/opengraph-image.png'
   },
   twitter: {
     card: 'summary_large_image',
     title:
-      'Pandem - Information you need during on-call emergencies',
+      'Trilha Dev - Evolua na Programação',
     description:
-      'Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.',
+      'Evolução para programador, cresça e desenvolva suas habilidades importante para ser um programador 10x.',
     images: ['https://i.imgur.com/MPMcyPP.png']
   }
 }
@@ -33,7 +33,7 @@ export default function RootLayout({
 }>) {
   return (
     <html
-      lang="en"
+      lang="pt-br"
       suppressHydrationWarning
       className="antialiased"
     >

@@ -13,19 +13,18 @@ export default function Home() {
     >
       <div className="flex flex-col gap-6 items-center">
         <Typography className="max-w-2xl" variant="h1">
-          Information you need during on-call emergencies
+          Trilha Dev, evolua como um Programador 10x
         </Typography>
         <Typography className="max-w-2xl" variant="h5">
-          Quickly link new on-call tickets to similar past
-          incidents and their solutions. All directly in
-          Slack the moment an incident happens.
+          Tem tido dificuldade nos estudos ou tá meio perdido no meio de tanto conteúdo?
+          Não se preocupe! Isso é normal, e nós estamos aqui pra resolver este problema.
         </Typography>
         <Link
-          href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+          href="https://pay.kiwify.com.br/5A84k2Z"
           target="_blank"
         >
           <Button size="tiny" variant="ghost">
-            {`Get Started`}
+            {`Quero Participar`}
           </Button>
         </Link>
         <Image
@@ -38,53 +37,51 @@ export default function Home() {
       <div className="flex flex-col md:pt-24 md:gap-36 gap-24 items-center">
         <div className="flex flex-col gap-12 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Quick solutions, less stress
+            O Caminho mais rápido, com menos stress
           </Typography>
           <div className="flex md:flex-row flex-col gap-12">
             <Feature
               icon={<Timer size={24} />}
-              headline="Fix emergencies fast"
-              description="Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks"
+              headline="Aprenda o que Importa"
+              description="Economize tempo do seus estudos - você irá aprender o que é importante estudar e ignorar aquilo que não tem necessidade"
             />
             <Feature
               icon={<ArrowUpDown size={24} />}
-              headline="Universally compatible"
-              description="Works with PagerDuty, Jira, or custom Slack alerts—Pandem integrates with any system"
+              headline="Troca de experiências"
+              description="Converse com quem trabalha na área, estagiários, juniors e outras senioridades. Entenda aquilo que o mercado procura através de pessoas que já estão no mercado de trabalho."
             />
             <Feature
               icon={<Workflow size={24} />}
-              headline="Secure for your org"
-              description="We keep your data safe by taking top security measures."
+              headline="Se Destaque"
+              description="Você vai aprender conteúdo técnico e mais do que isso, vai aprender a se posicionar, corrigir seu currículo e linkedin, criar projetos relevantes e crescer exponencialmente."
             />
           </div>
         </div>
         <div className="flex flex-col gap-6 max-w-2xl items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Instant setup, no custom code
+            1-on-1 para corrigir os seus pontos fracos e dar ênfase ao ponto forte
           </Typography>
           <Typography className="max-w-2xl" variant="p">
-            Quickly link new on-call tickets to similar past
-            incidents and their solutions. All directly in
-            Slack the moment an incident happens.
+            Fale direto com um especialista, corrija as suas falhas individuais, se aprimora com um acompanhamento individualizado que é feito com cada aluno.
           </Typography>
           <Image
             width={1024}
             height={632}
             alt="Pandem.dev hero image"
-            src="/hero1.png"
+            src="/relatos.png"
           />
         </div>
         <div className="flex flex-col gap-6 items-center">
           <Typography className="max-w-2xl" variant="h1">
-            Get in touch
+              Quero participar!
           </Typography>
-          <div>Book a demo, or hop on a call</div>
+          <div>comece hoje, e evolua em 1 semana aquilo que não evoluiu em 1 mês</div>
           <Link
-            href="https://map.sistilli.dev/public/coding/SaaS+Boilerplate"
+            href="https://pay.kiwify.com.br/5A84k2Z"
             target="_blank"
           >
             <Button size="tiny" variant="ghost">
-              {`Book now`}
+              {`Bora! Quero começar`}
             </Button>
           </Link>
         </div>
